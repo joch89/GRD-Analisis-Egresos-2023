@@ -1,0 +1,34 @@
+Columnas del dataset final y su descripción:
+
+
+'GRD': Código del Grupo Relacionado por Diagnóstico (GRD). Identificador numérico único para cada grupo de diagnósticos y procedimientos.
+
+'Descripción GRD': Descripción textual del GRD correspondiente al código GRD.
+
+'Sev':  Nivel de severidad asociado al GRD. Representa la complejidad del caso.
+
+'Altas': Número total de altas hospitalarias correspondientes a ese GRD.
+
+'Estancia': Suma total de los días de estancia hospitalaria para ese GRD.
+
+'EM': Estancia media (EM) para el GRD. Es el promedio de días de estancia por cada alta. Se calcula como Estancia / Altas.
+
+'Altas (dep)': Número de altas hospitalarias depuradas, excluyendo los outliers (valores atípicos) identificados.
+
+'Est (dep)': Suma total de los días de estancia para las altas depuradas (sin outliers).
+
+'EM (dep)': Estancia media depurada, calculada como Est (dep) / Altas (dep). Representa la EM sin la influencia de outliers.
+
+'Outlier Inf': Número de casos considerados como outliers inferiores para ese GRD.
+
+'Outlier Sup': Número de casos considerados como outliers superiores para ese GRD.
+
+'Éxitus': Número de altas que corresponden a pacientes fallecidos.
+
+'Perc 25': Percentil 25 de los días de estancia para las altas depuradas de ese GRD.
+
+'Perc 75': Percentil 75 de los días de estancia para las altas depuradas de ese GRD.
+
+'PC inf': Punto de corte inferior para la identificación de outliers.
+
+'PC sup': Punto de corte superior para la identificación de outliers.
